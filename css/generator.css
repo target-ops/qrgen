@@ -1,0 +1,80 @@
+.generator {
+    overflow: hidden;
+    height: 215px;
+    transition: height 0.2s;
+}
+
+.generator.active {
+    height: 545px;
+}
+.generator h1 {
+    font-size: 21px;
+}
+
+.generator p {
+    color: #696868;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.generator-form {
+    margin: 20px 0;
+}
+
+.generator-form input {
+    width: 100%;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #999;
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+.generator-form button {
+    width: 100%;
+    background: #070707;
+    border-radius: 5px;
+    height: 50px;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.generator-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #696868;
+    padding: 35px;
+    pointer-events: none;
+}
+
+.generator-img img {
+    height: 200px;
+    width: 200px;
+}
+
+.generator-btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.generator-btn .btn-link {
+    background: transparent;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding: 10px 10px 10px 0;
+    transition: 0.4s ;
+}
+
+.generator-btn .btn-link:hover {
+    padding: 10px;
+    background-color: #070707;
+    color: #0b0b0b;
+    border-radius: 5px;
+}
